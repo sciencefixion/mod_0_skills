@@ -1,0 +1,14 @@
+table2
+
+
+width = 3
+length = 6
+seats = 4
+open == true
+has_food == false
+
+
+table2.seat_guests will set open == false, has_food will remain false
+table2.order_up will change has_food == true, open will remain false
+table2.add_remove_seats(1) will add one seat so seats will equal 5
+table2.bus_table will remove all plates, cups, and food and set has_food == false and open == true
