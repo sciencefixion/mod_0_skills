@@ -8,6 +8,6 @@ weight (integer)
 
 methods:
 add_food_item (adds a prepared menu item to the plate, sets amount_full to between .0 (empty) and 1.0 (full), adds to weight, and sets clean to false)
-wash (sets clean to true)
+wash (sets clean to true and weight to default value)
 break (sets shape from "circle" or "square" to "broken")
 bus_plate (removes a used plate from a table and discards any remaining food, sets amount_full to .0 and weight to default value)
