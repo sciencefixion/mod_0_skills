@@ -1,0 +1,13 @@
+dinner_plate_3
+
+
+amount_full = .0
+clean == true
+shape = "square"
+weight = 2
+
+
+dinner_plate_3.add_food_item sets amount_full to .5, weight to 3, and clean to false
+dinner_plate_3.wash sets clean to true
+dinner_plate_3.break sets shape from "square" to "broken"
+dinner_plate_3.bus_plate sets amount_full to .0 and resets weight to 2
