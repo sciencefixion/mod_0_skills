@@ -1,0 +1,9 @@
+food = "pizza"
+is_delicious == true
+food = "sushi"
+num2 = 10
+num7 = 20
+quotient = num7 / num2
+songs = [ "one", "beautiful day", "the ground beneath her feet", "electrical storm"]
+songs.delete("one")
+food.length
