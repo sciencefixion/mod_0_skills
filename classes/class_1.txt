@@ -1,0 +1,14 @@
+table class
+
+attributes:
+width (integer)
+length (integer)
+seats (integer)
+open (boolean)
+has_food (boolean)
+
+methods:
+seat_guests (add guests to an open table, changes open and has_food to false)
+order_up (changes has_food to true)
+add_remove_seats (changes the number of seats by adding or subtracting)
+bus_table (remove all items on table and wipe down, changes open to true)
